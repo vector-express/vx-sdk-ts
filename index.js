@@ -282,7 +282,6 @@
 
     return new Promise( ( resolve, reject ) =>
     {
-      debugger;
       response.data.on( 'end', () => { resolve() });
       response.data.on( 'error', ( err ) => { reject( err ) });
     })

@@ -9,7 +9,7 @@ vectorExpress.convert( file, 'dwg', 'pdf' )
 {
   console.log( res );
   /*
-    link to the converted version of the original file
+    link to the converted version of the original file :
     https://vector.express/api/v2/public/files/afce43e7-56ce-4e81-8057-4bdf4da4f494.pdf
   */
 });

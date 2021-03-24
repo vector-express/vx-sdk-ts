@@ -230,7 +230,6 @@
 
     let config = Object.create( null );
 
-    config.url = url;
     config.method = 'post';
 
     if( options.params )
@@ -250,6 +249,8 @@
     {
       url = `${this.publicPath}/process/${format}/${processors}`;
     }
+
+    config.url = url;
 
     /* - config - */
 

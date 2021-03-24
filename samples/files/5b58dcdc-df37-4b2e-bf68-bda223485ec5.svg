@@ -1,0 +1,1190 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Library: www.woutware.com WW.Cad 4.0.37.147-->
+<!--Creation date: 10/04/2017 16:15:04-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192px" height="2136px" viewBox="0 0 192 2136" version="1.1">
+  <g id="0" stroke-width="1">
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435227,94.821958107183)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CAPACITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118358,113.701138290108)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,106.496719668573)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATUR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,103.9463652226)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,94.4841144560153)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">WORKING PRESSURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.633980103688,65.0378779026739)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ITEM NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.633980103688,67.557437115981)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">POS NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996515,84.5318070984263)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.YEAR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996515,87.1190944937482)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. ÅR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775515,74.3558499682199)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775515,76.9431369202714)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,96.8108102359354)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ARBETSTRYCK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435227,97.3737677163651)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VOLYM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118358,116.033217288794)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.633980103688,70.0550973417814)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">LAITE NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996515,89.6167547195482)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. VUOSI</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775515,79.4407971460728)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,108.75214321971)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX LÄMPÖTILA</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,99.0662337870729)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TYÖSKENTELYPAINE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435227,99.629191267504)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILAVUUS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118358,118.434548291257)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TESTAUSPÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310155,74.7588622262197)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CODE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310155,77.2784214395256)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310155,79.7760816653272)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORMI</text>
+    </g>
+    <path d="M16.74 129.31L182 129.31L182 32.1L16.74 32.1 Z" fill="none" stroke="#000000" />
+    <path d="M59.71 69.68L167.3 69.68" fill="none" stroke="#000000" />
+    <path d="M59.71 62.88L59.71 69.68" fill="none" stroke="#000000" />
+    <path d="M167.3 62.88L167.3 69.68" fill="none" stroke="#000000" />
+    <path d="M59.71 62.88L167.3 62.88" fill="none" stroke="#000000" />
+    <path d="M59.71 79.4L98.59 79.4" fill="none" stroke="#000000" />
+    <path d="M59.71 72.6L98.59 72.6" fill="none" stroke="#000000" />
+    <path d="M98.59 72.6L98.59 79.4" fill="none" stroke="#000000" />
+    <path d="M59.71 72.6L59.71 79.4" fill="none" stroke="#000000" />
+    <path d="M59.71 82.32L59.71 89.13" fill="none" stroke="#000000" />
+    <path d="M59.71 82.32L86.63 82.32" fill="none" stroke="#000000" />
+    <path d="M59.71 89.13L86.63 89.13" fill="none" stroke="#000000" />
+    <path d="M59.71 92.04L59.71 98.85" fill="none" stroke="#000000" />
+    <path d="M59.71 92.04L86.63 92.04" fill="none" stroke="#000000" />
+    <path d="M59.71 98.85L86.63 98.85" fill="none" stroke="#000000" />
+    <path d="M59.71 101.76L59.71 108.57" fill="none" stroke="#000000" />
+    <path d="M59.71 101.76L86.63 101.76" fill="none" stroke="#000000" />
+    <path d="M59.71 108.57L86.63 108.57" fill="none" stroke="#000000" />
+    <path d="M59.71 111.48L59.71 118.29" fill="none" stroke="#000000" />
+    <path d="M98.59 111.48L98.59 118.29" fill="none" stroke="#000000" />
+    <path d="M59.71 111.48L98.59 111.48" fill="none" stroke="#000000" />
+    <path d="M59.71 118.29L98.59 118.29" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443159,87.5189746750925)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839629,84.925616701074)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.3607376101961,97.1660699695635)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638268,107.015606327517)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 82.32L86.63 89.13" fill="none" stroke="#000000" />
+    <path d="M86.63 101.76L86.63 108.57" fill="none" stroke="#000000" />
+    <path d="M86.63 92.04L86.63 98.85" fill="none" stroke="#000000" />
+    <path d="M128.82 72.6L167.3 72.6" fill="none" stroke="#000000" />
+    <path d="M128.82 72.6L128.82 79.4" fill="none" stroke="#000000" />
+    <path d="M128.82 79.4L167.3 79.4" fill="none" stroke="#000000" />
+    <path d="M167.3 72.6L167.3 79.4" fill="none" stroke="#000000" />
+    <path d="M167.3 82.29L167.3 89.09" fill="none" stroke="#000000" />
+    <path d="M128.82 89.09L167.3 89.09" fill="none" stroke="#000000" />
+    <path d="M128.82 82.29L128.82 89.09" fill="none" stroke="#000000" />
+    <path d="M128.82 82.29L167.3 82.29" fill="none" stroke="#000000" />
+    <path d="M162.44 92.1L162.44 98.9" fill="none" stroke="#000000" />
+    <path d="M128.82 92.1L162.44 92.1" fill="none" stroke="#000000" />
+    <path d="M128.82 98.9L162.44 98.9" fill="none" stroke="#000000" />
+    <path d="M128.82 92.1L128.82 98.9" fill="none" stroke="#000000" />
+    <path d="M167.3 101.77L167.3 108.57" fill="none" stroke="#000000" />
+    <path d="M128.82 108.57L167.3 108.57" fill="none" stroke="#000000" />
+    <path d="M128.82 101.77L128.82 108.57" fill="none" stroke="#000000" />
+    <path d="M128.82 101.77L167.3 101.77" fill="none" stroke="#000000" />
+    <path d="M23.61 36.32L23.58 36.02L23.48 35.73L23.33 35.46L23.13 35.24L22.88 35.06L22.6 34.93L22.3 34.87L22 34.87L21.7 34.93L21.42 35.06L21.18 35.24L20.97 35.46L20.82 35.73L20.72 36.02L20.69 36.32L20.72 36.62L20.82 36.91L20.97 37.18L21.18 37.41L21.42 37.58L21.7 37.71L22 37.77L22.3 37.77L22.6 37.71L22.88 37.58L23.13 37.41L23.33 37.18L23.48 36.91L23.58 36.62L23.61 36.32" fill="none" stroke="#000000" />
+    <path d="M178.05 36.32L178.02 36.02L177.92 35.73L177.77 35.46L177.57 35.24L177.32 35.06L177.04 34.93L176.74 34.87L176.44 34.87L176.14 34.93L175.86 35.06L175.62 35.24L175.41 35.46L175.26 35.73L175.17 36.02L175.13 36.32L175.17 36.62L175.26 36.91L175.41 37.18L175.62 37.41L175.86 37.58L176.14 37.71L176.44 37.77L176.74 37.77L177.04 37.71L177.32 37.58L177.57 37.41L177.77 37.18L177.92 36.91L178.02 36.62L178.05 36.32" fill="none" stroke="#000000" />
+    <path d="M23.61 125.08L23.58 124.78L23.48 124.49L23.33 124.23L23.13 124L22.88 123.82L22.6 123.7L22.3 123.63L22 123.63L21.7 123.7L21.42 123.82L21.18 124L20.97 124.23L20.82 124.49L20.72 124.78L20.69 125.08L20.72 125.39L20.82 125.68L20.97 125.94L21.18 126.17L21.42 126.35L21.7 126.47L22 126.53L22.3 126.53L22.6 126.47L22.88 126.35L23.13 126.17L23.33 125.94L23.48 125.68L23.58 125.39L23.61 125.08" fill="none" stroke="#000000" />
+    <path d="M178.05 125.08L178.02 124.78L177.92 124.49L177.77 124.23L177.57 124L177.32 123.82L177.04 123.7L176.74 123.63L176.44 123.63L176.14 123.7L175.86 123.82L175.62 124L175.41 124.23L175.26 124.49L175.17 124.78L175.13 125.08L175.17 125.39L175.26 125.68L175.41 125.94L175.62 126.17L175.86 126.35L176.14 126.47L176.44 126.53L176.74 126.53L177.04 126.47L177.32 126.35L177.57 126.17L177.77 125.94L177.92 125.68L178.02 125.39L178.05 125.08" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,164.407646039141,97.6228013542168)">
+      <text font-family="Arial" font-size="4.89" fill="#000000">m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,167.622459752439,94.8738142353477)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <path d="M128.82 111.54L162.44 111.54" fill="none" stroke="#000000" />
+    <path d="M128.82 118.34L162.44 118.34" fill="none" stroke="#000000" />
+    <path d="M128.82 111.54L128.82 118.34" fill="none" stroke="#000000" />
+    <path d="M162.44 111.54L162.44 118.34" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,87.0547510214828)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITET</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,84.5043965755099)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292845,89.3101745726203)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TIHEYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098956,103.999589767548)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CONTENT</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098956,106.38431383506)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">INNEHÅLL</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098956,108.745416612976)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">SISÄLTÖ</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024355,113.701138290108)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024355,116.033217288794)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024355,118.434548291257)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">PÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.822649251252,78.5314100681408)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">JA00986V20</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.822649251252,88.2227618510417)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">2016</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.822649251252,98.0338973561418)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">150</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.5107947629289,68.8098035809257)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">N-B-1-01 RETENTION TANK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,59.8016785687844,78.3745736588885)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">(EN14015)</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.5107947629289,88.2530165553549)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">1500</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.5107947629289,107.696229529784)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">100</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.822649251252,107.706687155397)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">Liq.sod.chlor</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,4.88503590887779,76.1984824728129)">
+      <text font-family="Arial" font-size="3.73" fill="#000000">-V20</text>
+    </g>
+    <path d="M59.71 182.72L138.69 182.72" fill="none" stroke="#000000" />
+    <path d="M59.71 175.91L59.71 182.72" fill="none" stroke="#000000" />
+    <path d="M59.71 175.91L138.69 175.91" fill="none" stroke="#000000" />
+    <path d="M59.71 192.44L98.59 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 185.63L98.59 185.63" fill="none" stroke="#000000" />
+    <path d="M98.59 185.63L98.59 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 185.63L59.71 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 195.35L59.71 202.16" fill="none" stroke="#000000" />
+    <path d="M59.71 195.35L86.63 195.35" fill="none" stroke="#000000" />
+    <path d="M59.71 202.16L86.63 202.16" fill="none" stroke="#000000" />
+    <path d="M59.71 205.08L59.71 211.88" fill="none" stroke="#000000" />
+    <path d="M59.71 205.08L86.63 205.08" fill="none" stroke="#000000" />
+    <path d="M59.71 211.88L86.63 211.88" fill="none" stroke="#000000" />
+    <path d="M59.71 214.8L59.71 221.6" fill="none" stroke="#000000" />
+    <path d="M59.71 214.8L86.63 214.8" fill="none" stroke="#000000" />
+    <path d="M59.71 221.6L86.63 221.6" fill="none" stroke="#000000" />
+    <path d="M59.71 224.52L59.71 231.32" fill="none" stroke="#000000" />
+    <path d="M98.59 224.52L98.59 231.32" fill="none" stroke="#000000" />
+    <path d="M59.71 224.52L98.59 224.52" fill="none" stroke="#000000" />
+    <path d="M59.71 231.32L98.59 231.32" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443076,200.552107250507)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839615,197.958749276483)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.3607376101922,210.199202544975)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638243,220.048738902925)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 195.35L86.63 202.16" fill="none" stroke="#000000" />
+    <path d="M86.63 214.8L86.63 221.6" fill="none" stroke="#000000" />
+    <path d="M86.63 205.08L86.63 211.88" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599989,181.851829164564)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">N-B-1-02 STORAGE TANK 1</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599898,191.572813488111)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">(EN14015)</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599898,201.293797811653)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">1500</text>
+    </g>
+    <g transform="matrix(0.777678745883582,0,0,0.972098432354478,60.4312007599898,211.0147821352)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">ATM+HYDR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599898,220.735766458744)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">100</text>
+    </g>
+    <g transform="matrix(0.923493510736754,0,0,0.972098432354478,129.544347316211,191.572813488111)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">JA00986V21A</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.544347316211,201.261255435795)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">2016</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.544347316211,211.069445140534)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">139</text>
+    </g>
+    <g transform="matrix(0.729073824265858,0,0,0.972098432354478,129.544347316211,220.741615900291)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">LIQ.SOD. CHLOR.</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.039537711833,226.734270865517)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,219.529852243984)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATUR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,216.979497798009)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,207.517247031427)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">WORKING PRESSURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036835,178.071010478083)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ITEM NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036835,180.590569691392)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">POS NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,209.843942811349)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ARBETSTRYCK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.039537711833,229.066349864203)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036835,183.088229917192)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">LAITE NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,221.78527579512)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX LÄMPÖTILA</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,212.099366362486)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TYÖSKENTELYPAINE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.039537711833,231.467680866668)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TESTAUSPÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310124,187.79199480163)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CODE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310124,190.311554014935)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310124,192.809214240738)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORMI</text>
+    </g>
+    <path d="M16.74 242.34L182 242.34L182 145.13L16.74 145.13 Z" fill="none" stroke="#000000" />
+    <path d="M59.71 182.72L138.69 182.72" fill="none" stroke="#000000" />
+    <path d="M59.71 175.91L59.71 182.72" fill="none" stroke="#000000" />
+    <path d="M59.71 175.91L138.69 175.91" fill="none" stroke="#000000" />
+    <path d="M59.71 192.44L98.59 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 185.63L98.59 185.63" fill="none" stroke="#000000" />
+    <path d="M98.59 185.63L98.59 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 185.63L59.71 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 195.35L59.71 202.16" fill="none" stroke="#000000" />
+    <path d="M59.71 195.35L86.63 195.35" fill="none" stroke="#000000" />
+    <path d="M59.71 202.16L86.63 202.16" fill="none" stroke="#000000" />
+    <path d="M59.71 205.08L59.71 211.88" fill="none" stroke="#000000" />
+    <path d="M59.71 205.08L86.63 205.08" fill="none" stroke="#000000" />
+    <path d="M59.71 211.88L86.63 211.88" fill="none" stroke="#000000" />
+    <path d="M59.71 214.8L59.71 221.6" fill="none" stroke="#000000" />
+    <path d="M59.71 214.8L86.63 214.8" fill="none" stroke="#000000" />
+    <path d="M59.71 221.6L86.63 221.6" fill="none" stroke="#000000" />
+    <path d="M59.71 224.52L59.71 231.32" fill="none" stroke="#000000" />
+    <path d="M98.59 224.52L98.59 231.32" fill="none" stroke="#000000" />
+    <path d="M59.71 224.52L98.59 224.52" fill="none" stroke="#000000" />
+    <path d="M59.71 231.32L98.59 231.32" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443142,200.552107250503)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839672,197.958749276483)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.360737610198,210.199202544973)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638243,220.048738902925)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 195.35L86.63 202.16" fill="none" stroke="#000000" />
+    <path d="M86.63 214.8L86.63 221.6" fill="none" stroke="#000000" />
+    <path d="M86.63 205.08L86.63 211.88" fill="none" stroke="#000000" />
+    <path d="M23.61 149.35L23.58 149.05L23.48 148.76L23.33 148.5L23.13 148.27L22.88 148.09L22.6 147.97L22.3 147.9L22 147.9L21.7 147.97L21.42 148.09L21.18 148.27L20.97 148.5L20.82 148.76L20.72 149.05L20.69 149.35L20.72 149.66L20.82 149.95L20.97 150.21L21.18 150.44L21.42 150.62L21.7 150.74L22 150.8L22.3 150.8L22.6 150.74L22.88 150.62L23.13 150.44L23.33 150.21L23.48 149.95L23.58 149.66L23.61 149.35" fill="none" stroke="#000000" />
+    <path d="M178.05 149.35L178.02 149.05L177.92 148.76L177.77 148.5L177.57 148.27L177.32 148.09L177.04 147.97L176.74 147.9L176.44 147.9L176.14 147.97L175.86 148.09L175.62 148.27L175.41 148.5L175.26 148.76L175.17 149.05L175.13 149.35L175.17 149.66L175.26 149.95L175.41 150.21L175.62 150.44L175.86 150.62L176.14 150.74L176.44 150.8L176.74 150.8L177.04 150.74L177.32 150.62L177.57 150.44L177.77 150.21L177.92 149.95L178.02 149.66L178.05 149.35" fill="none" stroke="#000000" />
+    <path d="M23.61 238.12L23.58 237.81L23.48 237.52L23.33 237.26L23.13 237.03L22.88 236.85L22.6 236.73L22.3 236.67L22 236.67L21.7 236.73L21.42 236.85L21.18 237.03L20.97 237.26L20.82 237.52L20.72 237.81L20.69 238.12L20.72 238.42L20.82 238.71L20.97 238.97L21.18 239.2L21.42 239.38L21.7 239.5L22 239.57L22.3 239.57L22.6 239.5L22.88 239.38L23.13 239.2L23.33 238.97L23.48 238.71L23.58 238.42L23.61 238.12" fill="none" stroke="#000000" />
+    <path d="M178.05 238.12L178.02 237.81L177.92 237.52L177.77 237.26L177.57 237.03L177.32 236.85L177.04 236.73L176.74 236.67L176.44 236.67L176.14 236.73L175.86 236.85L175.62 237.03L175.41 237.26L175.26 237.52L175.17 237.81L175.13 238.12L175.17 238.42L175.26 238.71L175.41 238.97L175.62 239.2L175.86 239.38L176.14 239.5L176.44 239.57L176.74 239.57L177.04 239.5L177.32 239.38L177.57 239.2L177.77 238.97L177.92 238.71L178.02 238.42L178.05 238.12" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,200.087883596893)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITET</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,197.537529150919)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,202.343307148031)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TIHEYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,207.855090682592)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CAPACITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.039537711833,226.734270865515)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,219.529852243982)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATUR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,216.979497798008)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,207.517247031422)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">WORKING PRESSURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036835,178.071010478082)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ITEM NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036835,180.59056969139)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">POS NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,197.564939673835)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.YEAR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,200.152227069156)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. ÅR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,187.388982543629)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,189.976269495682)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,209.843942811344)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ARBETSTRYCK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,210.406900291777)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VOLYM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.039537711833,229.066349864202)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036835,183.088229917191)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">LAITE NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,202.64988729496)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. VUOSI</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,192.473929721482)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,221.785275795119)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX LÄMPÖTILA</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,212.099366362481)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TYÖSKENTELYPAINE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,212.662323842914)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILAVUUS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.039537711833,231.467680866667)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TESTAUSPÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310124,187.791994801629)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CODE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310124,190.311554014935)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310124,192.809214240737)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORMI</text>
+    </g>
+    <path d="M16.74 242.34L182 242.34L182 145.13L16.74 145.13 Z" fill="none" stroke="#000000" />
+    <path d="M59.71 182.72L167.3 182.72" fill="none" stroke="#000000" />
+    <path d="M59.71 175.91L59.71 182.72" fill="none" stroke="#000000" />
+    <path d="M167.3 175.91L167.3 182.72" fill="none" stroke="#000000" />
+    <path d="M59.71 175.91L167.3 175.91" fill="none" stroke="#000000" />
+    <path d="M59.71 192.44L98.59 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 185.63L98.59 185.63" fill="none" stroke="#000000" />
+    <path d="M98.59 185.63L98.59 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 185.63L59.71 192.44" fill="none" stroke="#000000" />
+    <path d="M59.71 195.35L59.71 202.16" fill="none" stroke="#000000" />
+    <path d="M59.71 195.35L86.63 195.35" fill="none" stroke="#000000" />
+    <path d="M59.71 202.16L86.63 202.16" fill="none" stroke="#000000" />
+    <path d="M59.71 205.08L59.71 211.88" fill="none" stroke="#000000" />
+    <path d="M59.71 205.08L86.63 205.08" fill="none" stroke="#000000" />
+    <path d="M59.71 211.88L86.63 211.88" fill="none" stroke="#000000" />
+    <path d="M59.71 214.8L59.71 221.6" fill="none" stroke="#000000" />
+    <path d="M59.71 214.8L86.63 214.8" fill="none" stroke="#000000" />
+    <path d="M59.71 221.6L86.63 221.6" fill="none" stroke="#000000" />
+    <path d="M59.71 224.52L59.71 231.32" fill="none" stroke="#000000" />
+    <path d="M98.59 224.52L98.59 231.32" fill="none" stroke="#000000" />
+    <path d="M59.71 224.52L98.59 224.52" fill="none" stroke="#000000" />
+    <path d="M59.71 231.32L98.59 231.32" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443142,200.552107250502)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839672,197.958749276482)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.360737610198,210.199202544972)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638243,220.048738902924)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 195.35L86.63 202.16" fill="none" stroke="#000000" />
+    <path d="M86.63 214.8L86.63 221.6" fill="none" stroke="#000000" />
+    <path d="M86.63 205.08L86.63 211.88" fill="none" stroke="#000000" />
+    <path d="M128.82 185.63L167.3 185.63" fill="none" stroke="#000000" />
+    <path d="M128.82 185.63L128.82 192.44" fill="none" stroke="#000000" />
+    <path d="M128.82 192.44L167.3 192.44" fill="none" stroke="#000000" />
+    <path d="M167.3 185.63L167.3 192.44" fill="none" stroke="#000000" />
+    <path d="M167.3 195.32L167.3 202.13" fill="none" stroke="#000000" />
+    <path d="M128.82 202.13L167.3 202.13" fill="none" stroke="#000000" />
+    <path d="M128.82 195.32L128.82 202.13" fill="none" stroke="#000000" />
+    <path d="M128.82 195.32L167.3 195.32" fill="none" stroke="#000000" />
+    <path d="M162.44 205.13L162.44 211.93" fill="none" stroke="#000000" />
+    <path d="M128.82 205.13L162.44 205.13" fill="none" stroke="#000000" />
+    <path d="M128.82 211.93L162.44 211.93" fill="none" stroke="#000000" />
+    <path d="M128.82 205.13L128.82 211.93" fill="none" stroke="#000000" />
+    <path d="M167.3 214.8L167.3 221.61" fill="none" stroke="#000000" />
+    <path d="M128.82 221.61L167.3 221.61" fill="none" stroke="#000000" />
+    <path d="M128.82 214.8L128.82 221.61" fill="none" stroke="#000000" />
+    <path d="M128.82 214.8L167.3 214.8" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,164.407646039135,210.655933929624)">
+      <text font-family="Arial" font-size="4.89" fill="#000000">m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,167.622459752435,207.906946810758)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <path d="M128.82 224.57L162.44 224.57" fill="none" stroke="#000000" />
+    <path d="M128.82 231.38L162.44 231.38" fill="none" stroke="#000000" />
+    <path d="M128.82 224.57L128.82 231.38" fill="none" stroke="#000000" />
+    <path d="M162.44 224.57L162.44 231.38" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,200.087883596891)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITET</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,197.537529150918)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292796,202.343307148029)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TIHEYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.79216809895,217.032722342958)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CONTENT</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.79216809895,219.417446410471)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">INNEHÅLL</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.79216809895,221.778549188387)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">SISÄLTÖ</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,226.734270865515)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,229.066349864202)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,231.467680866667)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">PÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,4.88503590887779,189.231615048222)">
+      <text font-family="Arial" font-size="3.73" fill="#000000">-V21A</text>
+    </g>
+    <path d="M59.71 295.75L138.69 295.75" fill="none" stroke="#000000" />
+    <path d="M59.71 288.95L59.71 295.75" fill="none" stroke="#000000" />
+    <path d="M59.71 288.95L138.69 288.95" fill="none" stroke="#000000" />
+    <path d="M59.71 305.47L98.59 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 298.67L98.59 298.67" fill="none" stroke="#000000" />
+    <path d="M98.59 298.67L98.59 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 298.67L59.71 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 308.39L59.71 315.19" fill="none" stroke="#000000" />
+    <path d="M59.71 308.39L86.63 308.39" fill="none" stroke="#000000" />
+    <path d="M59.71 315.19L86.63 315.19" fill="none" stroke="#000000" />
+    <path d="M59.71 318.11L59.71 324.91" fill="none" stroke="#000000" />
+    <path d="M59.71 318.11L86.63 318.11" fill="none" stroke="#000000" />
+    <path d="M59.71 324.91L86.63 324.91" fill="none" stroke="#000000" />
+    <path d="M59.71 327.83L59.71 334.63" fill="none" stroke="#000000" />
+    <path d="M59.71 327.83L86.63 327.83" fill="none" stroke="#000000" />
+    <path d="M59.71 334.63L86.63 334.63" fill="none" stroke="#000000" />
+    <path d="M59.71 337.55L59.71 344.36" fill="none" stroke="#000000" />
+    <path d="M98.59 337.55L98.59 344.36" fill="none" stroke="#000000" />
+    <path d="M59.71 337.55L98.59 337.55" fill="none" stroke="#000000" />
+    <path d="M59.71 344.36L98.59 344.36" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443077,313.585239825917)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839616,310.991881851894)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.3607376101923,323.232335120388)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638245,333.081871478337)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 308.39L86.63 315.19" fill="none" stroke="#000000" />
+    <path d="M86.63 327.83L86.63 334.63" fill="none" stroke="#000000" />
+    <path d="M86.63 318.11L86.63 324.91" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.431200759999,294.884961739974)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">N-B-1-03 STORAGE TANK 2</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599899,304.605946063522)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">(EN14015)</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599899,314.326930387065)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">1500</text>
+    </g>
+    <g transform="matrix(0.777678745883582,0,0,0.972098432354478,60.4312007599899,324.04791471061)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">ATM+HYDR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599899,333.768899034155)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">100</text>
+    </g>
+    <g transform="matrix(0.923493510736754,0,0,0.972098432354478,129.544347316211,304.605946063522)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">JA00986V21B</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.544347316211,314.294388011206)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">2016</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.544347316211,324.102577715945)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">139</text>
+    </g>
+    <g transform="matrix(0.729073824265858,0,0,0.972098432354478,129.544347316211,333.774748475702)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">LIQ.SOD. CHLOR.</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,339.767403440928)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,332.562984819394)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATUR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,330.01263037342)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,320.550379606839)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">WORKING PRESSURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,291.104143053494)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ITEM NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,293.623702266802)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">POS NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,322.87707538676)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ARBETSTRYCK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,342.099482439614)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,296.121362492603)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">LAITE NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,334.818408370532)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX LÄMPÖTILA</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,325.132498937896)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TYÖSKENTELYPAINE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,344.500813442079)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TESTAUSPÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,300.825127377041)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CODE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,303.344686590346)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,305.842346816151)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORMI</text>
+    </g>
+    <path d="M16.74 355.37L182 355.37L182 258.16L16.74 258.16 Z" fill="none" stroke="#000000" />
+    <path d="M59.71 295.75L138.69 295.75" fill="none" stroke="#000000" />
+    <path d="M59.71 288.95L59.71 295.75" fill="none" stroke="#000000" />
+    <path d="M59.71 288.95L138.69 288.95" fill="none" stroke="#000000" />
+    <path d="M59.71 305.47L98.59 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 298.67L98.59 298.67" fill="none" stroke="#000000" />
+    <path d="M98.59 298.67L98.59 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 298.67L59.71 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 308.39L59.71 315.19" fill="none" stroke="#000000" />
+    <path d="M59.71 308.39L86.63 308.39" fill="none" stroke="#000000" />
+    <path d="M59.71 315.19L86.63 315.19" fill="none" stroke="#000000" />
+    <path d="M59.71 318.11L59.71 324.91" fill="none" stroke="#000000" />
+    <path d="M59.71 318.11L86.63 318.11" fill="none" stroke="#000000" />
+    <path d="M59.71 324.91L86.63 324.91" fill="none" stroke="#000000" />
+    <path d="M59.71 327.83L59.71 334.63" fill="none" stroke="#000000" />
+    <path d="M59.71 327.83L86.63 327.83" fill="none" stroke="#000000" />
+    <path d="M59.71 334.63L86.63 334.63" fill="none" stroke="#000000" />
+    <path d="M59.71 337.55L59.71 344.36" fill="none" stroke="#000000" />
+    <path d="M98.59 337.55L98.59 344.36" fill="none" stroke="#000000" />
+    <path d="M59.71 337.55L98.59 337.55" fill="none" stroke="#000000" />
+    <path d="M59.71 344.36L98.59 344.36" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443143,313.585239825914)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839672,310.991881851894)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.360737610198,323.232335120384)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638245,333.081871478337)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 308.39L86.63 315.19" fill="none" stroke="#000000" />
+    <path d="M86.63 327.83L86.63 334.63" fill="none" stroke="#000000" />
+    <path d="M86.63 318.11L86.63 324.91" fill="none" stroke="#000000" />
+    <path d="M23.61 262.39L23.58 262.08L23.48 261.79L23.33 261.53L23.13 261.3L22.88 261.13L22.6 261L22.3 260.94L22 260.94L21.7 261L21.42 261.13L21.18 261.3L20.97 261.53L20.82 261.79L20.72 262.08L20.69 262.39L20.72 262.69L20.82 262.98L20.97 263.24L21.18 263.47L21.42 263.65L21.7 263.77L22 263.84L22.3 263.84L22.6 263.77L22.88 263.65L23.13 263.47L23.33 263.24L23.48 262.98L23.58 262.69L23.61 262.39" fill="none" stroke="#000000" />
+    <path d="M178.05 262.39L178.02 262.08L177.92 261.79L177.77 261.53L177.57 261.3L177.32 261.13L177.04 261L176.74 260.94L176.44 260.94L176.14 261L175.86 261.13L175.62 261.3L175.41 261.53L175.26 261.79L175.17 262.08L175.13 262.39L175.17 262.69L175.26 262.98L175.41 263.24L175.62 263.47L175.86 263.65L176.14 263.77L176.44 263.84L176.74 263.84L177.04 263.77L177.32 263.65L177.57 263.47L177.77 263.24L177.92 262.98L178.02 262.69L178.05 262.39" fill="none" stroke="#000000" />
+    <path d="M23.61 351.15L23.58 350.85L23.48 350.56L23.33 350.29L23.13 350.07L22.88 349.89L22.6 349.76L22.3 349.7L22 349.7L21.7 349.76L21.42 349.89L21.18 350.07L20.97 350.29L20.82 350.56L20.72 350.85L20.69 351.15L20.72 351.45L20.82 351.74L20.97 352.01L21.18 352.23L21.42 352.41L21.7 352.54L22 352.6L22.3 352.6L22.6 352.54L22.88 352.41L23.13 352.23L23.33 352.01L23.48 351.74L23.58 351.45L23.61 351.15" fill="none" stroke="#000000" />
+    <path d="M178.05 351.15L178.02 350.85L177.92 350.56L177.77 350.29L177.57 350.07L177.32 349.89L177.04 349.76L176.74 349.7L176.44 349.7L176.14 349.76L175.86 349.89L175.62 350.07L175.41 350.29L175.26 350.56L175.17 350.85L175.13 351.15L175.17 351.45L175.26 351.74L175.41 352.01L175.62 352.23L175.86 352.41L176.14 352.54L176.44 352.6L176.74 352.6L177.04 352.54L177.32 352.41L177.57 352.23L177.77 352.01L177.92 351.74L178.02 351.45L178.05 351.15" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,313.121016172304)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITET</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,310.570661726329)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,315.376439723442)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TIHEYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,320.888223258004)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CAPACITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,339.767403440926)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,332.562984819393)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATUR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,330.012630373419)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,320.550379606834)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">WORKING PRESSURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,291.104143053492)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ITEM NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,293.623702266802)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">POS NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,310.598072249246)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.YEAR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,313.185359644567)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. ÅR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,300.42211511904)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,303.009402071093)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,322.877075386754)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ARBETSTRYCK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,323.440032867188)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VOLYM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,342.099482439612)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,296.121362492602)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">LAITE NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,315.683019870371)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. VUOSI</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,305.507062296894)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,334.818408370531)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX LÄMPÖTILA</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,325.132498937892)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TYÖSKENTELYPAINE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,325.695456418325)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILAVUUS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,344.500813442078)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TESTAUSPÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,300.82512737704)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CODE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,303.344686590345)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,305.842346816148)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORMI</text>
+    </g>
+    <path d="M16.74 355.37L182 355.37L182 258.16L16.74 258.16 Z" fill="none" stroke="#000000" />
+    <path d="M59.71 295.75L167.3 295.75" fill="none" stroke="#000000" />
+    <path d="M59.71 288.95L59.71 295.75" fill="none" stroke="#000000" />
+    <path d="M167.3 288.95L167.3 295.75" fill="none" stroke="#000000" />
+    <path d="M59.71 288.95L167.3 288.95" fill="none" stroke="#000000" />
+    <path d="M59.71 305.47L98.59 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 298.67L98.59 298.67" fill="none" stroke="#000000" />
+    <path d="M98.59 298.67L98.59 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 298.67L59.71 305.47" fill="none" stroke="#000000" />
+    <path d="M59.71 308.39L59.71 315.19" fill="none" stroke="#000000" />
+    <path d="M59.71 308.39L86.63 308.39" fill="none" stroke="#000000" />
+    <path d="M59.71 315.19L86.63 315.19" fill="none" stroke="#000000" />
+    <path d="M59.71 318.11L59.71 324.91" fill="none" stroke="#000000" />
+    <path d="M59.71 318.11L86.63 318.11" fill="none" stroke="#000000" />
+    <path d="M59.71 324.91L86.63 324.91" fill="none" stroke="#000000" />
+    <path d="M59.71 327.83L59.71 334.63" fill="none" stroke="#000000" />
+    <path d="M59.71 327.83L86.63 327.83" fill="none" stroke="#000000" />
+    <path d="M59.71 334.63L86.63 334.63" fill="none" stroke="#000000" />
+    <path d="M59.71 337.55L59.71 344.36" fill="none" stroke="#000000" />
+    <path d="M98.59 337.55L98.59 344.36" fill="none" stroke="#000000" />
+    <path d="M59.71 337.55L98.59 337.55" fill="none" stroke="#000000" />
+    <path d="M59.71 344.36L98.59 344.36" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443143,313.585239825912)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839672,310.991881851892)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.360737610198,323.232335120383)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638245,333.081871478336)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 308.39L86.63 315.19" fill="none" stroke="#000000" />
+    <path d="M86.63 327.83L86.63 334.63" fill="none" stroke="#000000" />
+    <path d="M86.63 318.11L86.63 324.91" fill="none" stroke="#000000" />
+    <path d="M128.82 298.67L167.3 298.67" fill="none" stroke="#000000" />
+    <path d="M128.82 298.67L128.82 305.47" fill="none" stroke="#000000" />
+    <path d="M128.82 305.47L167.3 305.47" fill="none" stroke="#000000" />
+    <path d="M167.3 298.67L167.3 305.47" fill="none" stroke="#000000" />
+    <path d="M167.3 308.35L167.3 315.16" fill="none" stroke="#000000" />
+    <path d="M128.82 315.16L167.3 315.16" fill="none" stroke="#000000" />
+    <path d="M128.82 308.35L128.82 315.16" fill="none" stroke="#000000" />
+    <path d="M128.82 308.35L167.3 308.35" fill="none" stroke="#000000" />
+    <path d="M162.44 318.16L162.44 324.97" fill="none" stroke="#000000" />
+    <path d="M128.82 318.16L162.44 318.16" fill="none" stroke="#000000" />
+    <path d="M128.82 324.97L162.44 324.97" fill="none" stroke="#000000" />
+    <path d="M128.82 318.16L128.82 324.97" fill="none" stroke="#000000" />
+    <path d="M167.3 327.84L167.3 334.64" fill="none" stroke="#000000" />
+    <path d="M128.82 334.64L167.3 334.64" fill="none" stroke="#000000" />
+    <path d="M128.82 327.84L128.82 334.64" fill="none" stroke="#000000" />
+    <path d="M128.82 327.84L167.3 327.84" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,164.407646039135,323.689066505035)">
+      <text font-family="Arial" font-size="4.89" fill="#000000">m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,167.622459752435,320.940079386168)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <path d="M128.82 337.61L162.44 337.61" fill="none" stroke="#000000" />
+    <path d="M128.82 344.41L162.44 344.41" fill="none" stroke="#000000" />
+    <path d="M128.82 337.61L128.82 344.41" fill="none" stroke="#000000" />
+    <path d="M162.44 337.61L162.44 344.41" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,313.121016172302)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITET</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,310.570661726329)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,315.37643972344)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TIHEYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098951,330.06585491837)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CONTENT</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098951,332.450578985881)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">INNEHÅLL</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098951,334.811681763798)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">SISÄLTÖ</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,339.767403440926)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,342.099482439612)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,344.500813442078)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">PÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,4.88503590887779,302.264747623633)">
+      <text font-family="Arial" font-size="3.73" fill="#000000">-V21B</text>
+    </g>
+    <g transform="matrix(0.777678745883582,0,0,0.972098432354478,60.43120075999,97.9816495597888)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">ATM+HYDR</text>
+    </g>
+    <path d="M59.71 408.78L138.69 408.78" fill="none" stroke="#000000" />
+    <path d="M59.71 401.98L59.71 408.78" fill="none" stroke="#000000" />
+    <path d="M59.71 401.98L138.69 401.98" fill="none" stroke="#000000" />
+    <path d="M59.71 418.5L98.59 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 411.7L98.59 411.7" fill="none" stroke="#000000" />
+    <path d="M98.59 411.7L98.59 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 411.7L59.71 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 421.42L59.71 428.23" fill="none" stroke="#000000" />
+    <path d="M59.71 421.42L86.63 421.42" fill="none" stroke="#000000" />
+    <path d="M59.71 428.23L86.63 428.23" fill="none" stroke="#000000" />
+    <path d="M59.71 431.14L59.71 437.95" fill="none" stroke="#000000" />
+    <path d="M59.71 431.14L86.63 431.14" fill="none" stroke="#000000" />
+    <path d="M59.71 437.95L86.63 437.95" fill="none" stroke="#000000" />
+    <path d="M59.71 440.86L59.71 447.67" fill="none" stroke="#000000" />
+    <path d="M59.71 440.86L86.63 440.86" fill="none" stroke="#000000" />
+    <path d="M59.71 447.67L86.63 447.67" fill="none" stroke="#000000" />
+    <path d="M59.71 450.58L59.71 457.39" fill="none" stroke="#000000" />
+    <path d="M98.59 450.58L98.59 457.39" fill="none" stroke="#000000" />
+    <path d="M59.71 450.58L98.59 450.58" fill="none" stroke="#000000" />
+    <path d="M59.71 457.39L98.59 457.39" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443078,426.618372401329)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839616,424.025014427307)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.3607376101923,436.265467695799)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638245,446.115004053748)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 421.42L86.63 428.23" fill="none" stroke="#000000" />
+    <path d="M86.63 440.86L86.63 447.67" fill="none" stroke="#000000" />
+    <path d="M86.63 431.14L86.63 437.95" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.431200759999,407.918094315386)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">N-E-1-01 REACTION TANK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599899,417.639078638934)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">(EN14015)</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599899,427.360062962476)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">1500</text>
+    </g>
+    <g transform="matrix(0.777678745883582,0,0,0.972098432354478,60.4312007599899,437.081047286023)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">0.5</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,60.4312007599899,446.802031609567)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">100</text>
+    </g>
+    <g transform="matrix(0.923493510736754,0,0,0.972098432354478,129.544347316211,417.639078638934)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">JA00986V22</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.544347316211,427.327520586618)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">2016</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,129.544347316211,437.135710291357)">
+      <text font-family="Arial" font-size="6.93" fill="#000000">215</text>
+    </g>
+    <g transform="matrix(0.680468902648135,0,0,0.972098432354478,129.475567002587,446.21920623493)">
+      <text font-family="Arial" font-size="5.54" fill="#000000">LIQ.SOD. CHLOR/HYDRGEN</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,452.80053601634)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,445.596117394806)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATUR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,443.045762948832)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,433.583512182251)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">WORKING PRESSURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,404.137275628906)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ITEM NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,406.656834842215)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">POS NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,435.910207962172)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ARBETSTRYCK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,455.132615015026)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,409.154495068015)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">LAITE NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,447.851540945944)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX LÄMPÖTILA</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,438.165631513309)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TYÖSKENTELYPAINE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,457.533946017491)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TESTAUSPÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,413.858259952453)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CODE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,416.377819165758)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,418.875479391561)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORMI</text>
+    </g>
+    <path d="M16.74 468.41L182 468.41L182 371.2L16.74 371.2 Z" fill="none" stroke="#000000" />
+    <path d="M59.71 408.78L138.69 408.78" fill="none" stroke="#000000" />
+    <path d="M59.71 401.98L59.71 408.78" fill="none" stroke="#000000" />
+    <path d="M59.71 401.98L138.69 401.98" fill="none" stroke="#000000" />
+    <path d="M59.71 418.5L98.59 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 411.7L98.59 411.7" fill="none" stroke="#000000" />
+    <path d="M98.59 411.7L98.59 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 411.7L59.71 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 421.42L59.71 428.23" fill="none" stroke="#000000" />
+    <path d="M59.71 421.42L86.63 421.42" fill="none" stroke="#000000" />
+    <path d="M59.71 428.23L86.63 428.23" fill="none" stroke="#000000" />
+    <path d="M59.71 431.14L59.71 437.95" fill="none" stroke="#000000" />
+    <path d="M59.71 431.14L86.63 431.14" fill="none" stroke="#000000" />
+    <path d="M59.71 437.95L86.63 437.95" fill="none" stroke="#000000" />
+    <path d="M59.71 440.86L59.71 447.67" fill="none" stroke="#000000" />
+    <path d="M59.71 440.86L86.63 440.86" fill="none" stroke="#000000" />
+    <path d="M59.71 447.67L86.63 447.67" fill="none" stroke="#000000" />
+    <path d="M59.71 450.58L59.71 457.39" fill="none" stroke="#000000" />
+    <path d="M98.59 450.58L98.59 457.39" fill="none" stroke="#000000" />
+    <path d="M59.71 450.58L98.59 450.58" fill="none" stroke="#000000" />
+    <path d="M59.71 457.39L98.59 457.39" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443143,426.618372401325)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839672,424.025014427307)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.360737610198,436.265467695796)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638245,446.115004053749)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 421.42L86.63 428.23" fill="none" stroke="#000000" />
+    <path d="M86.63 440.86L86.63 447.67" fill="none" stroke="#000000" />
+    <path d="M86.63 431.14L86.63 437.95" fill="none" stroke="#000000" />
+    <path d="M23.61 375.42L23.58 375.12L23.48 374.83L23.33 374.56L23.13 374.34L22.88 374.16L22.6 374.03L22.3 373.97L22 373.97L21.7 374.03L21.42 374.16L21.18 374.34L20.97 374.56L20.82 374.83L20.72 375.12L20.69 375.42L20.72 375.72L20.82 376.01L20.97 376.28L21.18 376.5L21.42 376.68L21.7 376.81L22 376.87L22.3 376.87L22.6 376.81L22.88 376.68L23.13 376.5L23.33 376.28L23.48 376.01L23.58 375.72L23.61 375.42" fill="none" stroke="#000000" />
+    <path d="M178.05 375.42L178.02 375.12L177.92 374.83L177.77 374.56L177.57 374.34L177.32 374.16L177.04 374.03L176.74 373.97L176.44 373.97L176.14 374.03L175.86 374.16L175.62 374.34L175.41 374.56L175.26 374.83L175.17 375.12L175.13 375.42L175.17 375.72L175.26 376.01L175.41 376.28L175.62 376.5L175.86 376.68L176.14 376.81L176.44 376.87L176.74 376.87L177.04 376.81L177.32 376.68L177.57 376.5L177.77 376.28L177.92 376.01L178.02 375.72L178.05 375.42" fill="none" stroke="#000000" />
+    <path d="M23.61 464.18L23.58 463.88L23.48 463.59L23.33 463.33L23.13 463.1L22.88 462.92L22.6 462.8L22.3 462.73L22 462.73L21.7 462.8L21.42 462.92L21.18 463.1L20.97 463.33L20.82 463.59L20.72 463.88L20.69 464.18L20.72 464.49L20.82 464.78L20.97 465.04L21.18 465.27L21.42 465.45L21.7 465.57L22 465.63L22.3 465.63L22.6 465.57L22.88 465.45L23.13 465.27L23.33 465.04L23.48 464.78L23.58 464.49L23.61 464.18" fill="none" stroke="#000000" />
+    <path d="M178.05 464.18L178.02 463.88L177.92 463.59L177.77 463.33L177.57 463.1L177.32 462.92L177.04 462.8L176.74 462.73L176.44 462.73L176.14 462.8L175.86 462.92L175.62 463.1L175.41 463.33L175.26 463.59L175.17 463.88L175.13 464.18L175.17 464.49L175.26 464.78L175.41 465.04L175.62 465.27L175.86 465.45L176.14 465.57L176.44 465.63L176.74 465.63L177.04 465.57L177.32 465.45L177.57 465.27L177.77 465.04L177.92 464.78L178.02 464.49L178.05 464.18" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,426.154148747717)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITET</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,423.603794301742)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,428.409572298853)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TIHEYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,433.921355833416)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CAPACITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,452.800536016339)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,445.596117394805)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATUR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,443.04576294883)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TEMPERATURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,433.583512182246)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">WORKING PRESSURE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,404.137275628905)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ITEM NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,406.656834842214)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">POS NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,423.631204824658)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.YEAR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,426.218492219979)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. ÅR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,413.455247694453)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MANUF.NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,416.042534646504)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILLV. NR</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,435.910207962166)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">ARBETSTRYCK</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,436.473165442599)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VOLYM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,455.132615015025)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TEST DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.6339801036837,409.154495068014)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">LAITE NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.827166996511,428.716152445782)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. VUOSI</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.879598775511,418.540194872305)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">VALM. NO</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,447.851540945943)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX LÄMPÖTILA</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,438.165631513304)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TYÖSKENTELYPAINE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.775551435226,438.728588993737)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TILAVUUS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0395377118331,457.533946017489)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">TESTAUSPÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,413.858259952451)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CODE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,416.377819165757)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,29.7688012310125,418.87547939156)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">NORMI</text>
+    </g>
+    <path d="M16.74 468.41L182 468.41L182 371.2L16.74 371.2 Z" fill="none" stroke="#000000" />
+    <path d="M59.71 408.78L167.3 408.78" fill="none" stroke="#000000" />
+    <path d="M59.71 401.98L59.71 408.78" fill="none" stroke="#000000" />
+    <path d="M167.3 401.98L167.3 408.78" fill="none" stroke="#000000" />
+    <path d="M59.71 401.98L167.3 401.98" fill="none" stroke="#000000" />
+    <path d="M59.71 418.5L98.59 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 411.7L98.59 411.7" fill="none" stroke="#000000" />
+    <path d="M98.59 411.7L98.59 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 411.7L59.71 418.5" fill="none" stroke="#000000" />
+    <path d="M59.71 421.42L59.71 428.23" fill="none" stroke="#000000" />
+    <path d="M59.71 421.42L86.63 421.42" fill="none" stroke="#000000" />
+    <path d="M59.71 428.23L86.63 428.23" fill="none" stroke="#000000" />
+    <path d="M59.71 431.14L59.71 437.95" fill="none" stroke="#000000" />
+    <path d="M59.71 431.14L86.63 431.14" fill="none" stroke="#000000" />
+    <path d="M59.71 437.95L86.63 437.95" fill="none" stroke="#000000" />
+    <path d="M59.71 440.86L59.71 447.67" fill="none" stroke="#000000" />
+    <path d="M59.71 440.86L86.63 440.86" fill="none" stroke="#000000" />
+    <path d="M59.71 447.67L86.63 447.67" fill="none" stroke="#000000" />
+    <path d="M59.71 450.58L59.71 457.39" fill="none" stroke="#000000" />
+    <path d="M98.59 450.58L98.59 457.39" fill="none" stroke="#000000" />
+    <path d="M59.71 450.58L98.59 450.58" fill="none" stroke="#000000" />
+    <path d="M59.71 457.39L98.59 457.39" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.6909413443143,426.618372401325)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">kg/m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,99.1623269839672,424.025014427305)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,88.360737610198,436.265467695794)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">bar</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,87.9028135638245,446.115004053747)">
+      <text font-family="Arial" font-size="4.93" fill="#000000">°C</text>
+    </g>
+    <path d="M86.63 421.42L86.63 428.23" fill="none" stroke="#000000" />
+    <path d="M86.63 440.86L86.63 447.67" fill="none" stroke="#000000" />
+    <path d="M86.63 431.14L86.63 437.95" fill="none" stroke="#000000" />
+    <path d="M128.82 411.7L167.3 411.7" fill="none" stroke="#000000" />
+    <path d="M128.82 411.7L128.82 418.5" fill="none" stroke="#000000" />
+    <path d="M128.82 418.5L167.3 418.5" fill="none" stroke="#000000" />
+    <path d="M167.3 411.7L167.3 418.5" fill="none" stroke="#000000" />
+    <path d="M167.3 421.39L167.3 428.19" fill="none" stroke="#000000" />
+    <path d="M128.82 428.19L167.3 428.19" fill="none" stroke="#000000" />
+    <path d="M128.82 421.39L128.82 428.19" fill="none" stroke="#000000" />
+    <path d="M128.82 421.39L167.3 421.39" fill="none" stroke="#000000" />
+    <path d="M162.44 431.2L162.44 438" fill="none" stroke="#000000" />
+    <path d="M128.82 431.2L162.44 431.2" fill="none" stroke="#000000" />
+    <path d="M128.82 438L162.44 438" fill="none" stroke="#000000" />
+    <path d="M128.82 431.2L128.82 438" fill="none" stroke="#000000" />
+    <path d="M171.88 440.87L171.88 447.67" fill="none" stroke="#000000" />
+    <path d="M128.82 447.67L171.88 447.67" fill="none" stroke="#000000" />
+    <path d="M128.82 440.87L128.82 447.67" fill="none" stroke="#000000" />
+    <path d="M128.82 440.87L171.88 440.87" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,164.407646039135,436.722199080447)">
+      <text font-family="Arial" font-size="4.89" fill="#000000">m</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,167.622459752435,433.973211961581)">
+      <text font-family="Arial" font-size="2.82" fill="#000000">3</text>
+    </g>
+    <path d="M128.82 450.64L162.44 450.64" fill="none" stroke="#000000" />
+    <path d="M128.82 457.44L162.44 457.44" fill="none" stroke="#000000" />
+    <path d="M128.82 450.64L128.82 457.44" fill="none" stroke="#000000" />
+    <path d="M162.44 450.64L162.44 457.44" fill="none" stroke="#000000" />
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,426.154148747715)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITET</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,423.603794301741)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX DENSITY</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,30.0564887292797,428.409572298852)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">MAX TIHEYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098951,443.098987493782)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">CONTENT</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098951,445.483711561293)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">INNEHÅLL</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.792168098951,447.84481433921)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">SISÄLTÖ</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,452.800536016339)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATE</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,455.132615015025)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">DATUM</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,108.898383024351,457.533946017489)">
+      <text font-family="Arial" font-size="2.65" fill="#000000">PÄIVÄYS</text>
+    </g>
+    <g transform="matrix(0.972098432354478,0,0,0.972098432354478,4.88503590887779,415.297880199045)">
+      <text font-family="Arial" font-size="3.73" fill="#000000">-V22</text>
+    </g>
+  </g>
+  <g id="AM_BOR_FI" stroke-width="1" />
+  <g id="AM_BOR_EN" stroke-width="1" />
+  <g id="AM_BOR_SE" stroke-width="1" />
+  <g id="AM_BOR_DE" stroke-width="1" />
+  <g id="AM_BOR_PM" stroke-width="1" />
+  <g id="AM_BOR_PP" stroke-width="1" />
+  <g id="AM_BOR_JP" stroke-width="1" />
+  <g id="AM_BOR_VH" stroke-width="1" />
+  <g id="AM_BOR" stroke-width="1" />
+  <g id="Defpoints" stroke-width="1" />
+  <g id="AM_0" stroke-width="1">
+    <path d="M56.09 2098.9L56.09 2098.9L56.09 2098.9L56.09 2098.9 Z" fill="none" stroke="#000000" />
+    <path d="M56.09 2098.9L56.09 2098.9L56.09 2098.9L56.09 2098.9 Z" fill="none" stroke="#000000" />
+    <path d="M56.09 2098.9L56.09 2098.9L56.09 2098.9L56.09 2098.9 Z" fill="none" stroke="#000000" />
+    <path d="M56.09 2098.9L56.09 2098.9L56.09 2098.9L56.09 2098.9 Z" fill="none" stroke="#000000" />
+    <path d="M56.09 2098.9L56.09 2098.9L56.09 2098.9L56.09 2098.9 Z" fill="none" stroke="#000000" />
+    <path d="M56.09 2098.9L56.09 2098.9L56.09 2098.9L56.09 2098.9 Z" fill="none" stroke="#000000" />
+    <path d="M56.09 2098.9L56.09 2098.9L56.09 2098.9L56.09 2098.9 Z" fill="none" stroke="#000000" />
+  </g>
+  <g id="AM_5" stroke-width="1" />
+  <g id="AM_12" stroke-width="1" />
+  <g id="AM_PAREF" stroke-width="1" />
+  <g id="AM_3" stroke-width="1" />
+</svg>

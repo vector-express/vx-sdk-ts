@@ -11,6 +11,7 @@
     https://vector.express/api/v2/public/convert/ai/gs/pdf/pdf2svg/svg/svgo/svg?pdf2svg-page=1&svgo-pretty=true - convert with config
   */
 
+  const fs = require( 'fs' );
   const axios = require( 'axios' );
   const APIWrapper = Object.create( null );
 
@@ -27,23 +28,19 @@
   
   APIWrapper.get = async function ( url, format )
   {
+    if( !url || !format )
+    throw new Error( 'Please provide all obligatory args : url, format' );
+
     if( typeof url !== 'string' )
     throw new Error( 'Please provide url string as a parameter' );
   
-    const res = await axios.get( url )
-    .then( ( res ) =>
-    {
-      if( format === 'full' )
-      return res;
+    const res = await axios.get( url );
 
-      return res.data;
-    })
-    .catch( err =>
-    {
-      console.error( err );
-    });
-
+    if( format === 'full' )
     return res;
+
+    return res.data;
+
   }
 
   /* */
@@ -57,35 +54,66 @@
 
   APIWrapper.post = async function ( url, data )
   {
+    if( !url || !data )
+    throw new Error( 'Please provide all obligatory args : url, data' );
+
     if( typeof url !== 'string' )
     throw new Error( 'Please provide url string as a parameter' );
   
-    const res = await axios({ url, method : 'post', data })
-    .then( ( response ) =>
-    {
-      return response;
-    })
-    .catch( err =>
-    {
-      console.error( err );
-    });
+    const res = await axios({ url, method : 'post', data });
 
     return res;
   }
 
   /* */
 
-  APIWrapper.convert = async function ( file, inputFormat, outputFormat, transformers )
+  APIWrapper.convert = async function ( file, inputFormat, outputFormat, options )
   {
-    let url = '';
+    /*
+      obligatory :
+        file
+        inputFormat
+        outputFormat
+
+      optional :
+        options
+        options.transformers
+        options.params
+        options.token
+        options.save
+        options.path
+    */
+
+    if( !file || !inputFormat || !outputFormat )
+    throw new Error( 'Please provide all obligatory args : file, inputFormat, outputFormat' );
+
+    if( !options )
+    {
+      options = Object.create( null );
+      options.transformers = null;
+      options.params = null;
+      options.token = null;
+      options.save = null;
+      options.path = null;
+    }
+
+    let url;
+    let transformers = options.transformers || null;
 
     if( !transformers )
     {
-      let paths;
-      try {
+      // if( options.token )
+      // throw new Error( 'Please specify transformers in the 4th argument to use /metered route' );
+
+      let paths, res;
+
+      try
+      {
         paths = await axios.get( `https://vector.express/api/v2/public/convert/${inputFormat}/auto/${outputFormat}/` )
-      } catch ( error ) {
-        throw new Error( error.message );
+      } catch ( error )
+      {
+        console.error( error );
+        throw new Error( error );
       }
       
       paths = paths.data.alternatives.map( ( el ) => el.path );
@@ -95,23 +123,170 @@
     else
     {
       transformers = transformers.join( '/' );
-      url = `${this.publicPath}/convert/${inputFormat}/${transformers}/${outputFormat}`;
+
+      url = `${options.token ? this.meteredPath : this.publicPath}/convert/${inputFormat}/${transformers}/${outputFormat}`;
     }
 
-    const res = await axios({ url, method : 'post', data : file })
-    .then( ( response ) =>
-    {
-      return response.data;
-    })
-    .catch( err =>
-    {
-      console.error( err );
-    });
+    /* - config - */
 
-    return res;
+    let config = Object.create( null );
+
+    config.url = url;
+    config.method = 'post';
+
+    if( options.params )
+    config.params = options.params;
+
+    if( options.params && options.params[ 'use-file' ] )
+    config.data = undefined;
+    else
+    config.data = file;
+
+    if( options.token )
+    config.headers = { Authorization: `Bearer ${token}` };
+
+    /* - config - */
+
+    try
+    {
+      res = await axios( config );
+    } catch ( error )
+    {
+      console.error( error );
+      throw new Error( error );
+    }
+
+    if( options.save )
+    {
+      let path = options.path || `${__dirname}/file.${res.data.format}`;
+      return this.downloadAndSave( res.data.resultUrl, path );
+    }
+    else
+    {
+      return res.data.resultUrl;
+    }
   }
 
   /* */
+
+  APIWrapper.analyze = async function ( file, format, analyzers )
+  {
+    if( !file || !format || !analyzers )
+    throw new Error( 'Please provide all mandatory args : file, format, analyzers' );
+
+    analyzers = analyzers.join( '/' );
+    let url = `${this.publicPath}/analyze/${format}/${analyzers}`;
+
+    let res, analytics;
+
+    try
+    {
+      res = await axios({ url, method : 'post', data : file })
+      analytics = await axios.get( res.data.resultUrl );
+    } catch ( error )
+    {
+      console.error( error );
+      throw new Error( error );
+    }
+
+    return analytics.data;
+  }
+
+  /* */
+
+  APIWrapper.process = async function ( file, format, processors, options )
+  {
+    /*
+      obligatory :
+        file
+        format
+        processors
+
+      optional :
+        options
+        options.params
+        options.token
+        options.save
+        options.path
+    */
+
+    if( !file || !format || !processors )
+    throw new Error( 'Please provide all obligatory args : file, format, processors' );
+
+    if( !options )
+    {
+      options = Object.create( null );
+      options.params = null;
+      options.token = null;
+      options.save = null;
+      options.path = null;
+    }
+
+    processors = processors.join( '/' );
+
+    let res;
+    let url = `${this.publicPath}/process/${format}/${processors}`;
+
+    /* - config - */
+
+    let config = Object.create( null );
+
+    config.url = url;
+    config.method = 'post';
+
+    if( options.params )
+    config.params = options.params;
+
+    if( options.params && options.params[ 'use-file' ] )
+    config.data = undefined;
+    else
+    config.data = file;
+
+    if( options.token )
+    config.headers = { Authorization: `Bearer ${token}` };
+
+    /* - config - */
+
+    try
+    {
+      res = await axios( config )
+    } catch ( error )
+    {
+      console.error( error );
+      throw new Error( error );
+    }
+
+    if( options.save )
+    {
+      let path = options.path || `${__dirname}/file.${res.data.format}`;
+      return this.downloadAndSave( res.data.resultUrl, path );
+    }
+    else
+    {
+      return res.data.resultUrl;
+    }
+  }
+
+  /* */
+
+  APIWrapper.downloadAndSave = async ( url, path ) =>
+  {
+    if( !url )
+    throw new Error( 'Please provide all obligatory args : url' );
+
+    if( !path )
+    path = __dirname + '/file';
+
+    let response = await axios({ url, method : 'get', responseType : 'stream' });
+    response.data.pipe( fs.createWriteStream( path ) );
+
+    return new Promise( ( resolve, reject ) =>
+    {
+      debugger;
+      response.data.on( 'end', () => { resolve() });
+      response.data.on( 'error', ( err ) => { reject( err ) });
+    })
+  }
 
   module.exports = APIWrapper;
   

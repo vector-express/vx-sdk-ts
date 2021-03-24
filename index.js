@@ -224,8 +224,7 @@
 
     processors = processors.join( '/' );
 
-    let res;
-    let url = `${this.publicPath}/process/${format}/${processors}`;
+    let res, url;
 
     /* - config - */
 
@@ -243,7 +242,14 @@
     config.data = file;
 
     if( options.token )
-    config.headers = { Authorization: `Bearer ${token}` };
+    {
+      config.headers = { Authorization: `Bearer ${token}` };
+      url = `${this.meteredPath}/process/${format}/${processors}`;
+    }
+    else
+    {
+      url = `${this.publicPath}/process/${format}/${processors}`;
+    }
 
     /* - config - */
 

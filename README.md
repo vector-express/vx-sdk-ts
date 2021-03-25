@@ -28,7 +28,7 @@ API wrapper for https://vector.express/
         * options.save - if true, file is saved to options.path, ortherwise url of the file location is returned.
         * options.path - path where to save converted file.
 
-  **Either options.file or options.params[ 'use-file' ] must be specified**
+  **Either `options.file` or `options.params[ 'use-file' ]` must be specified**
 
 * **`process`** - process a file.
   * parameters :
@@ -43,7 +43,7 @@ API wrapper for https://vector.express/
         * options.save - if true, file is saved to options.path, ortherwise url of the file location is returned.
         * options.path - path where to save converted file.
 
-  **Either options.file or options.params[ 'use-file' ] must be specified**
+  **Either `options.file` or `options.params[ 'use-file' ]` must be specified**
 
 * **`analyze`** - analyze a file.
   * parameters :
@@ -56,4 +56,7 @@ API wrapper for https://vector.express/
         * options.params - parameters of request ( options for analyzers, use-file to use it from a server )
         * options.token - Bearer token to be sent for authentication.
 
-  **Either options.file or options.params[ 'use-file' ] must be specified**
+  **Either `options.file` or `options.params[ 'use-file' ]` must be specified**
+
+
+### [Samples](./samples)

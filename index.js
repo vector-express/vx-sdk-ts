@@ -28,7 +28,7 @@
   
   APIWrapper.get = async function ( url, format )
   {
-    if( !url || !format )
+    if( !url )
     throw new Error( 'Please provide all obligatory args : url, format' );
 
     if( typeof url !== 'string' )
@@ -54,7 +54,7 @@
 
   APIWrapper.post = async function ( url, data )
   {
-    if( !url || !data )
+    if( !url )
     throw new Error( 'Please provide all obligatory args : url, data' );
 
     if( typeof url !== 'string' )
@@ -67,25 +67,27 @@
 
   /* */
 
-  APIWrapper.convert = async function ( file, inputFormat, outputFormat, options )
+  APIWrapper.convert = async function ( inputFormat, outputFormat, options )
   {
     /*
       obligatory :
-        file
         inputFormat
         outputFormat
 
       optional :
         options
+        options.file
         options.transformers
         options.params
         options.token
         options.save
         options.path
+
+      either options.file or options.params[ 'use-file' ] must be specified
     */
 
-    if( !file || !inputFormat || !outputFormat )
-    throw new Error( 'Please provide all obligatory args : file, inputFormat, outputFormat' );
+    if( !inputFormat || !outputFormat )
+    throw new Error( 'Please provide all obligatory args : inputFormat, outputFormat' );
 
     if( !options )
     {
@@ -95,7 +97,11 @@
       options.token = null;
       options.save = null;
       options.path = null;
+      options.file = null;
     }
+
+    if( !options.file && ( !options.params || !options.params[ 'use-file' ] ) )
+    throw new Error( 'Please provide a file or specify file on a server through 3d arg : options( options.params[ \'use-file\' ] field )' );
 
     let url;
     let transformers = options.transformers;
@@ -150,7 +156,7 @@
     if( options.params && options.params[ 'use-file' ] )
     config.data = undefined;
     else
-    config.data = file;
+    config.data = options.file;
 
     if( options.token )
     config.headers = { Authorization: `Bearer ${options.token}` };
@@ -179,23 +185,74 @@
 
   /* */
 
-  APIWrapper.analyze = async function ( file, format, analyzers )
+  APIWrapper.analyze = async function ( format, analyzers, options )
   {
-    if( !file || !format || !analyzers )
-    throw new Error( 'Please provide all mandatory args : file, format, analyzers' );
+    /*
+      obligatory :
+        format
+        analyzers
+
+      optional :
+        options
+        options.file
+        options.params
+        options.token
+
+      either options.file or options.params[ 'use-file' ] must be specified
+    */
+  
+    if( !format || !analyzers )
+    throw new Error( 'Please provide all mandatory args : format, analyzers' );
 
     if( Object.prototype.toString.call( analyzers ) === '[object Array]' )
     analyzers = analyzers.join( '/' );
     else if( !( Object.prototype.toString.call( analyzers ) === '[object String]' ) )
-    throw new Error( 'Analyzers can either be an array or string' )
+    throw new Error( 'Analyzers can either be an array or string' );
 
-    let url = `${this.publicPath}/analyze/${format}/${analyzers}`;
+    if( !options )
+    {
+      options = Object.create( null );
+      options.params = null;
+      options.token = null;
+      options.file = null;
+    }
+
+    if( !options.file && ( !options.params || !options.params[ 'use-file' ] ) )
+    throw new Error( 'Please provide a file or specify file on a server through 3d arg : options( options.params[ \'use-file\' ] field )' );
+
+    /* - config - */
+
+    let config = Object.create( null );
+
+    config.method = 'post';
+
+    if( options.params )
+    config.params = options.params;
+
+    if( options.params && options.params[ 'use-file' ] )
+    config.data = undefined;
+    else
+    config.data = options.file;
+
+    if( options.token )
+    {
+      config.headers = { Authorization: `Bearer ${options.token}` };
+      url = `${this.meteredPath}/analyze/${format}/${analyzers}`;
+    }
+    else
+    {
+      url = `${this.publicPath}/analyze/${format}/${analyzers}`;
+    }
+
+    config.url = url;
+
+    /* - config - */
 
     let res, analytics;
 
     try
     {
-      res = await axios({ url, method : 'post', data : file })
+      res = await axios( config );
       analytics = await axios.get( res.data.resultUrl );
     } catch ( error )
     {
@@ -208,23 +265,25 @@
 
   /* */
 
-  APIWrapper.process = async function ( file, format, processors, options )
+  APIWrapper.process = async function ( format, processors, options )
   {
     /*
       obligatory :
-        file
         format
         processors
 
       optional :
         options
+        options.file
         options.params
         options.token
         options.save
         options.path
+
+      either options.file or options.params[ 'use-file' ] must be specified
     */
 
-    if( !file || !format || !processors )
+    if( !format || !processors )
     throw new Error( 'Please provide all obligatory args : file, format, processors' );
 
     if( Object.prototype.toString.call( processors ) === '[object Array]' )
@@ -239,7 +298,11 @@
       options.token = null;
       options.save = null;
       options.path = null;
+      options.file = null;
     }
+
+    if( !options.file && ( !options.params || !options.params[ 'use-file' ] ) )
+    throw new Error( 'Please provide a file or specify file on a server through 3d arg : options( options.params[ \'use-file\' ] field )' );
 
     let res, url;
 
@@ -255,7 +318,7 @@
     if( options.params && options.params[ 'use-file' ] )
     config.data = undefined;
     else
-    config.data = file;
+    config.data = options.file;
 
     if( options.token )
     {

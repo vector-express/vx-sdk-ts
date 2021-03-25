@@ -4,7 +4,7 @@ const vectorExpress = require( '../index' );
 const file = fs.readFileSync( __dirname + '/files/10mmRST.dwg' );
 
 /* convert file from .dwg to .pdf */
-vectorExpress.convert( file, 'dwg', 'pdf' )
+vectorExpress.convert( 'dwg', 'pdf', { file } )
 .then( ( res ) =>
 {
   console.log( res );

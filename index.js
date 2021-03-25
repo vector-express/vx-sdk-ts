@@ -365,11 +365,16 @@
     path = __dirname + '/file';
 
     let response = await axios({ url, method : 'get', responseType : 'stream' });
+    
+    // create directories
+    let dirPath = path.split( '/' ).slice( 0, -1 ).join( '/' ) + '/';
+    await fs.mkdir( dirPath, { recursive: true }, () => {} );
+
     response.data.pipe( fs.createWriteStream( path ) );
 
     return new Promise( ( resolve, reject ) =>
     {
-      response.data.on( 'end', () => { resolve() });
+      response.data.on( 'end', () => { console.log( 'File is saved!' ); resolve() });
       response.data.on( 'error', ( err ) => { reject( err ) });
     })
   }

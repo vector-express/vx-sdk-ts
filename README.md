@@ -23,7 +23,7 @@ API wrapper for https://vector.express/
         * options - options map.
         * options.file - file to be sent for conversion.
         * options.transformers - transformers to be used for conversion
-        * options.params - parameters of request ( options for conversion, use-file to use file from a server )
+        * options.params - parameters of request ( options for conversion, use-file to use it from a server )
         * options.token - Bearer token to be sent for authentication.
         * options.save - if true, file is saved to options.path, ortherwise url of the file location is returned.
         * options.path - path where to save converted file.
@@ -38,7 +38,7 @@ API wrapper for https://vector.express/
     * optional :
         * options - options map.
         * options.file - file to be sent for conversion.
-        * options.params - parameters of request ( options for processors, use-file to use file from a server )
+        * options.params - parameters of request ( options for processors, use-file to use it from a server )
         * options.token - Bearer token to be sent for authentication.
         * options.save - if true, file is saved to options.path, ortherwise url of the file location is returned.
         * options.path - path where to save converted file.
@@ -53,7 +53,7 @@ API wrapper for https://vector.express/
     * optional :
         * options - options map.
         * options.file - file to be sent for conversion.
-        * options.params - parameters of request ( options for analyzers, use-file to use file from a server )
+        * options.params - parameters of request ( options for analyzers, use-file to use it from a server )
         * options.token - Bearer token to be sent for authentication.
 
   **Either options.file or options.params[ 'use-file' ] must be specified**

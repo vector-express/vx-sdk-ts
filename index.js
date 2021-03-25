@@ -98,18 +98,28 @@
     }
 
     let url;
-    let transformers = options.transformers || null;
+    let transformers = options.transformers;
 
     if( !transformers )
     {
-      // if( options.token )
-      // throw new Error( 'Please specify transformers in the 4th argument to use /metered route' );
 
       let paths, res;
 
       try
       {
-        paths = await axios.get( `https://vector.express/api/v2/public/convert/${inputFormat}/auto/${outputFormat}/` )
+        if( options.token )
+        {
+          paths = await axios
+          ({
+              url : `${this.meteredPath}/convert/${inputFormat}/auto/${outputFormat}/`,
+              method : 'get',
+              headers : { Authorization : `Bearer ${options.token}` }
+          });
+        }
+        else
+        {
+          paths = await axios.get( `${this.publicPath}/convert/${inputFormat}/auto/${outputFormat}/` );
+        }
       } catch ( error )
       {
         console.error( error );
@@ -143,7 +153,7 @@
     config.data = file;
 
     if( options.token )
-    config.headers = { Authorization: `Bearer ${token}` };
+    config.headers = { Authorization: `Bearer ${options.token}` };
 
     /* - config - */
 
@@ -174,7 +184,11 @@
     if( !file || !format || !analyzers )
     throw new Error( 'Please provide all mandatory args : file, format, analyzers' );
 
+    if( Object.prototype.toString.call( analyzers ) === '[object Array]' )
     analyzers = analyzers.join( '/' );
+    else if( !( Object.prototype.toString.call( analyzers ) === '[object String]' ) )
+    throw new Error( 'Analyzers can either be an array or string' )
+
     let url = `${this.publicPath}/analyze/${format}/${analyzers}`;
 
     let res, analytics;
@@ -213,6 +227,11 @@
     if( !file || !format || !processors )
     throw new Error( 'Please provide all obligatory args : file, format, processors' );
 
+    if( Object.prototype.toString.call( processors ) === '[object Array]' )
+    processors = processors.join( '/' );
+    else if( !( Object.prototype.toString.call( processors ) === '[object String]' ) )
+    throw new Error( 'Processors can either be an array or string' )
+
     if( !options )
     {
       options = Object.create( null );
@@ -221,8 +240,6 @@
       options.save = null;
       options.path = null;
     }
-
-    processors = processors.join( '/' );
 
     let res, url;
 
@@ -242,7 +259,7 @@
 
     if( options.token )
     {
-      config.headers = { Authorization: `Bearer ${token}` };
+      config.headers = { Authorization: `Bearer ${options.token}` };
       url = `${this.meteredPath}/process/${format}/${processors}`;
     }
     else

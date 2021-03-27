@@ -1,18 +1,23 @@
 # vector-express
 
-API wrapper for https://vector.express/
+A NodeJS wrapper for [Vector Express](https://github.com/smidyo/vectorexpress-api), an API that allows you to convert, analyze and process vector files. Works for both public endpoints and paid metered endpoints by supplying your Bearer token.
 
-## Interface :
+## Installation
+
+`npm install @smidyo/vectorexpress-nodejs`
+
+
+## Interface
 
 * **`get`** - makes a GET request to a certain url.
   * parameters :
     * url - url to be requested
-    * format ( optional ) - if 'full', returns all info about communication with a server.
+    * format (optional) - if 'full', returns all info about communication with a server.
 
 * **`post`** - makes a POST request to a certain url.
   * parameters :
     * url - url to be requested
-    * data ( optional ) - data to be sent a server.
+    * data (optional) - data to be sent a server.
 
 * **`convert`** - convert a file from one format to another.
   * parameters :

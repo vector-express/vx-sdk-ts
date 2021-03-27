@@ -1,4 +1,4 @@
-# vector-express
+# @smidyo/vectorexpress-nodejs
 
 A NodeJS wrapper for [Vector Express](https://github.com/smidyo/vectorexpress-api), an API that allows you to convert, analyze and process vector files. Works for both public endpoints and paid metered endpoints by supplying your Bearer token.
 

@@ -1,7 +1,7 @@
 const fs = require( 'fs' );
 const vectorExpress = require( '../index' );
 
-const file = fs.readFileSync( __dirname + '/files/0e729b7d-2473-4ff2-8b8e-d1dd64ea6ce2.svg' );
+const file = fs.readFileSync( __dirname + '/files/drawing1.svg' );
 
 /* convert file from .svg to .pdf using these converters : 'librsvg', 'eps', 'gs' */
 vectorExpress.convert( 'svg', 'pdf', { file, transformers : [ 'librsvg', 'eps', 'gs' ] } )

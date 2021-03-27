@@ -1,13 +1,21 @@
 {
-  "name": "vector-express",
+  "name": "@smidyo/vectorexpress-nodejs",
   "version": "1.0.0",
-  "description": "Vector conversion, analyzing and processing",
+  "description": "An API wrapper for the Vector Express API (v2)",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
   "keywords": [
-    "vector", "conversion"
+    "vector",
+    "conversion",
+    "postscript",
+    "eps",
+    "pdf",
+    "svg",
+    "dxf",
+    "dwg",
+    "autocad"
   ],
   "author": "Yevhen Shulha <jackshel45@gmail.com>",
   "license": "ISC",

@@ -1,7 +1,7 @@
 const fs = require( 'fs' );
 const vectorExpress = require( '../index' );
 
-const file = fs.readFileSync( __dirname + '/files/10mmRST.dwg' );
+const file = fs.readFileSync( __dirname + '/files/drawing3.dwg' );
 
 ( async function ()
 {

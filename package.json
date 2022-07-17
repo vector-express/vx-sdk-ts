@@ -1,6 +1,6 @@
 {
-  "name": "@smidyo/vectorexpress-nodejs",
-  "version": "1.0.0",
+  "name": "@vector-express/vectorexpress-nodejs",
+  "version": "1.0.1",
   "description": "An API wrapper for the Vector Express API (v2)",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,12 @@
+Dockerfile
+.git
+**/.gitignore
+**/node_modules
+**/obj
+**/bin
+**/dist
+**/build
+typings/schema
+**/*.schema.d.ts
+**/*.proto.d.ts
+**/*.proto.js

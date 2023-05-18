@@ -1,0 +1,61 @@
+{
+  "name": "@vector-express/sdk",
+  "version": "2.0.0",
+  "description": "An API wrapper for the Vector Express API (v2)",
+  "main": "dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "build": "tsc --emitDeclarationOnly --declarationMap --declaration && node esbuild.mjs",
+    "test": "nyc mocha",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "postinstall": "exit 0",
+    "version": "npm run lint && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "vector",
+    "conversion",
+    "postscript",
+    "eps",
+    "pdf",
+    "svg",
+    "dxf",
+    "dwg",
+    "autocad"
+  ],
+  "author": "Vector Express Ltd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vector-express/vx-sdk-ts.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "esbuild": "^0.17.15",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.6.4"
+  }
+}

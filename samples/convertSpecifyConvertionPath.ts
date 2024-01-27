@@ -14,9 +14,9 @@
  */
 
 import fs from 'node:fs';
-import vectorExpress from '../src/index.js';
+import * as vectorExpress from '../src/index.js';
 
-const file = fs.readFileSync(__dirname + '/files/drawing1.svg');
+const file = fs.readFileSync(process.cwd() + '/files/drawing1.svg');
 
 /* convert file from .svg to .pdf using these converters : 'librsvg', 'eps', 'gs' */
 vectorExpress

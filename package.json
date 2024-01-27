@@ -1,6 +1,6 @@
 {
   "name": "@vector-express/sdk",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An API wrapper for the Vector Express API (v2)",
   "main": "dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,6 +11,7 @@
   "files": [
     "dist/**/*"
   ],
+  "type": "module",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
@@ -41,11 +42,10 @@
   },
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.1",
-    "@types/node": "^18.0.0",
+    "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "esbuild": "^0.17.15",

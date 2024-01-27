@@ -14,9 +14,9 @@
  */
 
 import fs from 'node:fs';
-import vectorExpress from '../src/index.js';
+import * as vectorExpress from '../src/index.js';
 
-const file = fs.readFileSync(__dirname + '/files/drawing2.svg');
+const file = fs.readFileSync(process.cwd() + '/files/drawing2.svg');
 
 /* process svg file */
 vectorExpress

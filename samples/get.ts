@@ -13,7 +13,7 @@
  * PERFORMANCE OF THIS SOFTWARE.
  */
 
-import vectorExpress from '../src/index.js';
+import * as vectorExpress from '../src/index.js';
 
 /* get data */
 vectorExpress

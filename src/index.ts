@@ -26,59 +26,92 @@
   */
 
 import fs from 'node:fs/promises';
-import axios, { AxiosRequestConfig } from 'axios';
+import { join } from 'node:path';
+import { cwd } from 'node:process';
 
-const APIWrapper_ = Object.create(null);
-
-APIWrapper_.basePath = 'https://vector.express';
-APIWrapper_.publicPath = 'https://vector.express/api/v2/public';
-APIWrapper_.meteredPath = 'https://vector.express/api/v2/metered';
+const basePath = 'https://vector.express';
+const publicPath = 'https://vector.express/api/v2/public';
+const meteredPath = 'https://vector.express/api/v2/metered';
 
 /**
  * Sends request to a url, returns Promise.
  */
 
-APIWrapper_.get = async function (url: string, format: string) {
+const get_ = async <T extends 'full'>(
+	url: string | URL,
+	format?: T,
+): Promise<T extends 'full' ? Response : ReturnType<typeof JSON.parse>> => {
 	if (!url)
-		throw new Error('Please provide all obligatory args : url, format');
+		throw new TypeError('Please provide all obligatory args: url, format');
 
-	if (typeof url !== 'string')
-		throw new Error('Please provide url string as a parameter');
+	if (typeof url !== 'string' && !(url instanceof URL))
+		throw new TypeError('Please provide url string as a parameter');
 
-	const res = await axios.get(url);
+	const res = await fetch(url);
+	if (!res.ok) {
+		throw new Error(
+			`Error fetching ${url}: unexpected response code ${res.status}`,
+		);
+	}
 
 	if (format === 'full') return res;
 
-	return res.data;
+	return res.json();
 };
 
 /**
  * Sends data to the url, returns Promise.
  */
 
-APIWrapper_.post = async function (url: string, data: Uint8Array) {
-	if (!url) throw new Error('Please provide all obligatory args : url, data');
+const post_ = async (url: string | URL, data: BodyInit): Promise<Response> => {
+	if (!url)
+		throw new TypeError('Please provide all obligatory args: url, data');
 
-	if (typeof url !== 'string')
+	if (typeof url !== 'string' && !(url instanceof URL))
 		throw new Error('Please provide url string as a parameter');
 
-	const res = await axios({ url, method: 'post', data });
+	const res = await fetch(url, { method: 'POST', body: data });
+	if (!res.ok) {
+		throw new Error(
+			`Error fetching ${url}: unexpected response code ${res.status}`,
+		);
+	}
 
 	return res;
 };
 
-APIWrapper_.convert = async function (
+const convert_ = async <
+	T extends
+		| {
+				['transformers']?: string[];
+				['params']:
+					| string
+					| URLSearchParams
+					| string[][]
+					| Record<string, string>;
+				['token']?: string | null;
+				['save']?: boolean | null;
+				['path']?: string | null;
+		  }
+		| {
+				['file']: BodyInit;
+				['transformers']?: string[];
+				['params']?:
+					| string
+					| URLSearchParams
+					| string[][]
+					| Record<string, string>
+					| undefined
+					| null;
+				['token']?: string | null;
+				['save']?: boolean | null;
+				['path']?: string | null;
+		  },
+>(
 	inputFormat: string,
 	outputFormat: string,
-	options?: {
-		['file']?: Buffer | null;
-		['transformers']?: string[];
-		['params']?: Record<string, unknown> | null;
-		['token']?: string | null;
-		['save']?: boolean | null;
-		['path']?: string | null;
-	},
-) {
+	options: T,
+) => {
 	/*
       obligatory :
         inputFormat
@@ -96,19 +129,24 @@ APIWrapper_.convert = async function (
       either options.file or options.params[ 'use-file' ] must be specified
     */
 
-	if (!inputFormat || !outputFormat)
-		throw new Error(
+	if (!inputFormat || !outputFormat) {
+		throw new TypeError(
 			'Please provide all obligatory args : inputFormat, outputFormat',
 		);
-
-	if (!options) {
-		options = {};
 	}
 
-	if (!options.file && (!options.params || !options.params['use-file']))
-		throw new Error(
+	const params = options['params']
+		? new URLSearchParams(options['params'])
+		: null;
+
+	if (
+		Object.prototype.hasOwnProperty.call(options, 'file') ===
+		!!params?.get('use-file')
+	) {
+		throw new TypeError(
 			"Please provide a file or specify file on a server through 3d arg : options( options.params[ 'use-file' ] field )",
 		);
+	}
 
 	let url: string;
 	let transformers: string;
@@ -116,68 +154,99 @@ APIWrapper_.convert = async function (
 	if (!options.transformers) {
 		let paths;
 
-		if (options.token) {
-			paths = await axios({
-				url: `${this.meteredPath}/convert/${inputFormat}/auto/${outputFormat}/`,
-				method: 'get',
-				headers: { Authorization: `Bearer ${options.token}` },
-			});
+		if (options['token']) {
+			paths = await fetch(
+				`${meteredPath}/convert/${inputFormat}/auto/${outputFormat}/`,
+				{
+					['headers']: [['authorization', `Bearer ${options.token}`]],
+				},
+			);
 		} else {
-			paths = await axios.get(
-				`${this.publicPath}/convert/${inputFormat}/auto/${outputFormat}/`,
+			paths = await fetch(
+				`${publicPath}/convert/${inputFormat}/auto/${outputFormat}/`,
 			);
 		}
 
-		paths = paths.data.alternatives.map(
+		if (!paths.ok) {
+			if (!paths.ok) {
+				throw new Error(
+					`Error fetching possible transformers: unexpected response code ${paths.status}`,
+				);
+			}
+		}
+
+		paths = (await paths.json())['alternatives'].map(
 			(el: { ['path']: string }) => el.path,
 		);
-		url = `${this.basePath}${paths[0]}`;
+		url = `${basePath}${paths[0]}${params ? `?${params}` : ''}`;
 	} else {
 		transformers = options.transformers.join('/');
 
 		url = `${
-			options.token ? this.meteredPath : this.publicPath
-		}/convert/${inputFormat}/${transformers}/${outputFormat}`;
+			options.token ? meteredPath : publicPath
+		}/convert/${inputFormat}/${transformers}/${outputFormat}${
+			params ? `?${params}` : ''
+		}`;
 	}
 
 	/* - config - */
 
-	const config = Object.create(null);
+	const config: RequestInit = Object.create(null);
 
-	config.url = url;
-	config.method = 'post';
+	config['method'] = 'POST';
 
-	if (options.params) config.params = options.params;
+	if (Object.prototype.hasOwnProperty.call(config, 'file'))
+		config['body'] = (options as unknown as { ['file']: BodyInit })['file'];
 
-	if (options.params && options.params['use-file']) config.data = undefined;
-	else config.data = options.file;
-
-	if (options.token)
-		config.headers = { Authorization: `Bearer ${options.token}` };
+	if (options['token'])
+		config['headers'] = [['authorization', `Bearer ${options.token}`]];
 
 	/* - config - */
 
-	const res = await axios(config);
+	const res = await fetch(url, config);
+	if (!res.ok) {
+		throw new Error(
+			`Error fetching ${url}: unexpected response code ${res.status}`,
+		);
+	}
 
-	if (options.save) {
-		const path = options.path || `${__dirname}/file.${res.data.format}`;
-		return APIWrapper_.downloadAndSave(res.data.resultUrl, path);
+	const result = await res.json();
+	if (options['save']) {
+		const path = options.path || join(cwd(), `file.${result['format']}`);
+		return downloadAndSave_(result['resultUrl'], path);
 	} else {
-		return res.data.resultUrl;
+		return result['resultUrl'];
 	}
 };
 
 /* */
 
-APIWrapper_.analyze = async function (
+const analyze_ = async <
+	T extends
+		| {
+				['params']:
+					| string
+					| URLSearchParams
+					| string[][]
+					| Record<string, string>;
+				['token']?: string | null;
+		  }
+		| {
+				['file']: BodyInit;
+				['params']?:
+					| string
+					| URLSearchParams
+					| string[][]
+					| Record<string, string>
+					| undefined
+					| null;
+				['token']?: string | null;
+		  },
+>(
 	format: string,
 	analyzers: string | string[],
-	options?: {
-		['file']?: Buffer | null;
-		['params']?: Record<string, unknown> | null;
-		['token']?: string | null;
-	},
-) {
+	options: T,
+) => {
 	/*
       obligatory :
         format
@@ -192,10 +261,24 @@ APIWrapper_.analyze = async function (
       either options.file or options.params[ 'use-file' ] must be specified
     */
 
-	if (!format || !analyzers)
-		throw new Error(
+	if (!format || !analyzers) {
+		throw new TypeError(
 			'Please provide all mandatory args : format, analyzers',
 		);
+	}
+
+	const params = options['params']
+		? new URLSearchParams(options['params'])
+		: null;
+
+	if (
+		Object.prototype.hasOwnProperty.call(options, 'file') ===
+		!!params?.get('use-file')
+	) {
+		throw new TypeError(
+			"Please provide a file or specify file on a server through 3d arg : options( options.params[ 'use-file' ] field )",
+		);
+	}
 
 	if (Array.isArray(analyzers)) {
 		analyzers = analyzers.join('/');
@@ -203,58 +286,73 @@ APIWrapper_.analyze = async function (
 		throw new Error('Analyzers can either be an array or string');
 	}
 
-	if (!options) {
-		options = {};
-	}
+	/* - config - */
 
-	if (!options.file && (!options.params || !options.params['use-file']))
+	const config: RequestInit = Object.create(null);
+
+	config['method'] = 'POST';
+
+	if (Object.prototype.hasOwnProperty.call(config, 'file'))
+		config['body'] = (options as unknown as { ['file']: BodyInit })['file'];
+
+	if (options['token'])
+		config['headers'] = [['authorization', `Bearer ${options.token}`]];
+
+	const url = `${
+		options['token'] ? meteredPath : publicPath
+	}/analyze/${format}/${analyzers}${params ? `?${params}` : ''}`;
+	/* - config - */
+
+	const res = await fetch(url, config);
+	if (!res.ok) {
 		throw new Error(
-			"Please provide a file or specify file on a server through 3d arg : options( options.params[ 'use-file' ] field )",
+			`Error fetching ${url}: unexpected response code ${res.status}`,
 		);
-
-	/* - config - */
-
-	const config = Object.create(null);
-
-	config.method = 'post';
-
-	if (options.params) config.params = options.params;
-
-	if (options.params && options.params['use-file']) config.data = undefined;
-	else config.data = options.file;
-
-	let url: string;
-
-	if (options.token) {
-		config.headers = { Authorization: `Bearer ${options.token}` };
-		url = `${this.meteredPath}/analyze/${format}/${analyzers}`;
-	} else {
-		url = `${this.publicPath}/analyze/${format}/${analyzers}`;
 	}
 
-	config.url = url;
+	const result = await res.json();
+	const analytics = await fetch(result['resultUrl']);
+	if (!analytics.ok) {
+		throw new Error(
+			`Error fetching result: unexpected response code ${res.status}`,
+		);
+	}
 
-	/* - config - */
-
-	const res = await axios(config);
-	const analytics = await axios.get(res.data.resultUrl);
-
-	return analytics.data;
+	return analytics.json();
 };
 
 /* */
 
-APIWrapper_.process = async function (
+const process_ = async <
+	T extends
+		| {
+				['params']:
+					| string
+					| URLSearchParams
+					| string[][]
+					| Record<string, string>;
+				['token']?: string | null;
+				['save']?: boolean | null;
+				['path']?: string | null;
+		  }
+		| {
+				['file']: BodyInit;
+				['params']?:
+					| string
+					| URLSearchParams
+					| string[][]
+					| Record<string, string>
+					| undefined
+					| null;
+				['token']?: string | null;
+				['save']?: boolean | null;
+				['path']?: string | null;
+		  },
+>(
 	format: string,
 	processors: string | string[],
-	options?: {
-		['file']?: Buffer | null;
-		['params']?: Record<string, unknown> | null;
-		['token']?: string | null;
-		['save']?: boolean | null;
-		['path']?: string | null;
-	},
-) {
+	options: T,
+) => {
 	/*
       obligatory :
         format
@@ -271,76 +369,87 @@ APIWrapper_.process = async function (
       either options.file or options.params[ 'use-file' ] must be specified
     */
 
-	if (!format || !processors)
-		throw new Error(
+	if (!format || !processors) {
+		throw new TypeError(
 			'Please provide all obligatory args : file, format, processors',
 		);
+	}
 
 	if (Array.isArray(processors)) processors = processors.join('/');
-	else if (!(Object(processors) instanceof String))
-		throw new Error('Processors can either be an array or string');
-
-	if (!options) {
-		options = {};
+	else if (!(Object(processors) instanceof String)) {
+		throw new TypeError('Processors can either be an array or string');
 	}
 
-	if (!options.file && (!options.params || !options.params['use-file']))
-		throw new Error(
+	const params = options['params']
+		? new URLSearchParams(options['params'])
+		: null;
+
+	if (
+		Object.prototype.hasOwnProperty.call(options, 'file') ===
+		!!params?.get('use-file')
+	) {
+		throw new TypeError(
 			"Please provide a file or specify file on a server through 3d arg : options( options.params[ 'use-file' ] field )",
 		);
-
-	let url;
-
-	/* - config - */
-
-	const config: AxiosRequestConfig = Object.create(null);
-
-	config.method = 'post';
-
-	if (options.params) config.params = options.params;
-
-	if (options.params && options.params['use-file']) config.data = undefined;
-	else config.data = options.file;
-
-	if (options.token) {
-		config.headers = { Authorization: `Bearer ${options.token}` };
-		url = `${this.meteredPath}/process/${format}/${processors}`;
-	} else {
-		url = `${this.publicPath}/process/${format}/${processors}`;
 	}
 
-	config.url = url;
+	/* - config - */
+
+	const config: RequestInit = Object.create(null);
+
+	config['method'] = 'POST';
+
+	if (Object.prototype.hasOwnProperty.call(config, 'file'))
+		config['body'] = (options as unknown as { ['file']: BodyInit })['file'];
+
+	if (options['token'])
+		config['headers'] = [['authorization', `Bearer ${options.token}`]];
+
+	const url = `${
+		options['token'] ? meteredPath : publicPath
+	}/process/${format}/${processors}${params ? `?${params}` : ''}`;
 
 	/* - config - */
 
-	const res = await axios(config);
+	const res = await fetch(url, config);
+	if (!res.ok) {
+		throw new Error(
+			`Error fetching ${url}: unexpected response code ${res.status}`,
+		);
+	}
 
-	if (options.save) {
-		const path = options.path || `${process.cwd()}/file.${res.data.format}`;
-		return APIWrapper_.downloadAndSave(res.data.resultUrl, path);
+	const result = await res.json();
+	if (options['save']) {
+		const path = options.path || join(cwd(), `file.${result['format']}`);
+		return downloadAndSave_(result['resultUrl'], path);
 	} else {
-		return res.data.resultUrl;
+		return result['resultUrl'];
 	}
 };
 
 /* */
 
-APIWrapper_.downloadAndSave = async (url: string, path: string) => {
+const downloadAndSave_ = async (url: string | URL, path: string) => {
 	if (!url) throw new Error('Please provide all obligatory args : url');
 
-	if (!path) path = __dirname + '/file';
+	if (!path) path = join(cwd(), 'file');
 
-	const response = await axios({
-		url,
-		method: 'get',
-		responseType: 'stream',
-	});
+	const response = await fetch(url);
 
 	// create directories
 	const dirPath = path.split('/').slice(0, -1).join('/') + '/';
 	await fs.mkdir(dirPath, { recursive: true });
 
-	await fs.writeFile(path, response.data);
+	const data = await response.arrayBuffer();
+
+	await fs.writeFile(path, new Uint8Array(data));
 };
 
-export default APIWrapper_;
+export {
+	analyze_ as analyze,
+	convert_ as convert,
+	downloadAndSave_ as downloadAndSave,
+	get_ as get,
+	post_ as post,
+	process_ as process,
+};

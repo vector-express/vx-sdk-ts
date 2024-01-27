@@ -14,9 +14,9 @@
  */
 
 import fs from 'node:fs';
-import vectorExpress from '../src/index.js';
+import * as vectorExpress from '../src/index.js';
 
-const file = fs.readFileSync(__dirname + '/files/drawing3.dwg');
+const file = fs.readFileSync(process.cwd() + '/files/drawing3.dwg');
 
 (async function () {
 	/* send file to the server */

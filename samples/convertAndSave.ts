@@ -14,16 +14,16 @@
  */
 
 import fs from 'node:fs';
-import vectorExpress from '../src/index.js';
+import * as vectorExpress from '../src/index.js';
 
-const file = fs.readFileSync(__dirname + '/files/drawing3.dwg');
+const file = fs.readFileSync(process.cwd() + '/files/drawing3.dwg');
 
 /* convert file from .dwg to .pdf */
 vectorExpress
 	.convert('dwg', 'pdf', {
 		file,
 		save: true,
-		path: __dirname + '/mysuperfolder/mysuperfile.pdf',
+		path: process.cwd() + '/mysuperfolder/mysuperfile.pdf',
 	})
 	.then(console.log);
 /*
